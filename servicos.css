@@ -1,0 +1,73 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:ital,wght@0,100..700;1,100..700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    border: none;
+    font-family: "Roboto Mono", monospace;
+}
+
+    body {
+        min-height: 100vh;
+        background-image: url(./assets/Background\ Mario\ e\ Luigi.png);
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+    }
+
+h1 {
+    color: #ffffff;
+    font-size: 100px;
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+}
+
+ul {
+    color: #ffffff;
+    font-size: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    line-height: 120px;
+    height: 100%;
+    width: 100%;
+}
+
+
+
+div {
+    background: linear-gradient(109deg, rgba(10, 12, 16, 0.99) 15%, rgba(10, 12, 16, 0.7) 50%, rgba(10, 12, 16, 0.99) 85%);
+    position: fixed;
+    top: 0;
+    z-index: -2;
+    width: 100%;
+    height: 100%;
+}
+
+@media (max-width: 845px) {
+    section  {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        padding: 50px;
+    }
+
+    h1 {
+        font-size: 30px;
+        white-space: nowrap;
+    }
+
+    ul {
+        font-size: 30px;
+        width: auto;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin: auto 30px;
+        line-height: 80px;
+    }
+}
+
